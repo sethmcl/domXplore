@@ -1,0 +1,2 @@
+python -m SimpleHTTPServer 8181
+open http://localhost:8181/demo

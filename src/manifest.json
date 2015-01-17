@@ -1,0 +1,33 @@
+{
+    "name": "__MSG_appName__",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "__MSG_appDescription__",
+    "default_locale": "en",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "css": [
+                "styles/contentScript.css"
+            ],
+            "js": [
+                "scripts/handlebars.runtime.min.js",
+                "scripts/templates.js",
+                "scripts/contentScript.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": false
+        }
+    ],
+    "permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "web_accessible_resources": [
+      "scripts/contentScript.map",
+      "images/*"
+    ]
+}

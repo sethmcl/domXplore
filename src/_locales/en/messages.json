@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "domXplore",
+    "description": "Chrome extension to explore and tame wild DOMs"
+  },
+  "appDescription": {
+    "message": "Chrome extension to explore and tame wild DOMs",
+    "description": "Visualize a DOM as a folder structure"
+  }
+}
